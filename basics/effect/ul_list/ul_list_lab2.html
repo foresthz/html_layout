@@ -1,0 +1,41 @@
+<ul class="top1">
+    <ul class="middle1">
+        <li class="item1">发心</li>
+        <li class="item1">起行</li>
+        <li class="item1">五缘</li>
+    </ul>
+    <ul class="middle1">
+        <li class="item1">持戒</li>
+        <li class="item1">禅定</li>
+        <li class="item1">清净</li>
+    </ul>
+    <ul class="middle1">
+        <li class="item1">受戒</li>
+        <li class="item1">修定</li>
+        <li class="item1">忏悔</li>
+    </ul>
+    <ul class="middle1">
+        <li class="item1">三皈</li>
+        <li class="item1">五逆</li>
+        <li class="item1">十戒</li>
+    </ul>
+</ul>
+
+<style>
+    .middle1 {
+        border: 1px solid pink;
+        display: inline-block;
+    }
+
+    .middle1:nth-of-type(2)>li:nth-child(2n) {
+        color: red;
+    }
+
+    .top1 .middle1 {
+        margin-right: 25px;
+    }
+
+    .middle1:nth-of-type(3)>li {
+        list-style-type: decimal;
+    }
+</style>
